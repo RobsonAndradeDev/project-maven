@@ -2,7 +2,8 @@ package project;
 
 public class Main {
   public static void main(String[] args) {
-	  System.out.println("testing maven");
-	  //crash
+	  Maria mariaClass = new Maria();
+	  mariaClass.setName("João");
+	  System.out.println("O nome da maria agora é: " + mariaClass.getName());
   }
 }
